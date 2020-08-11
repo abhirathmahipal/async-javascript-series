@@ -1,6 +1,9 @@
 const fs = require("fs");
 const axios = require("axios");
 
+// note that console.time and console.timeEnd
+// for a particular task takes in the same argument
+
 console.time("file write");
 fs.writeFile("example.txt", "This is an example", function(err) {
   console.timeEnd("file write");

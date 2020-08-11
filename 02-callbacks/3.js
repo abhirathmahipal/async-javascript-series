@@ -1,4 +1,4 @@
-const request = require("sync-request");
+const request = require("sync-request"); // it's a package to make synchronous web requests.
 const fs = require("fs");
 
 var exampleResp = request("GET", "https://example.com");
